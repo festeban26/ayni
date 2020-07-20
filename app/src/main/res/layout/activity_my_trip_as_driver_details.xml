@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.MyTripAsDriverDetailsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/Toolbar_MyTripAsDriverDetailsActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/customWhite"
+        app:title="@string/String_TripDetailsActivity_ToolbarTitle" />
+
+    <ScrollView
+        android:id="@+id/ScrollView_MyTripAsDriverDetailsActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/LightGray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Dimension_CardView_MarginBottom"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/cardview_my_trip_as_driver_general_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/Dimension_CardView_MarginSides"
+                android:layout_marginRight="@dimen/Dimension_CardView_MarginSides"
+                android:layout_marginBottom="@dimen/Dimension_CardView_MarginBottom" />
+
+            <include
+                android:id="@+id/View_MyTripAsDriverDetailsActivity_Passengers"
+                layout="@layout/cardview_my_trip_as_driver_passengers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/Dimension_CardView_MarginSides"
+                android:layout_marginRight="@dimen/Dimension_CardView_MarginSides"
+                android:layout_marginBottom="@dimen/Dimension_CardView_MarginBottom" />
+
+            <include
+                android:id="@+id/View_MyTripAsDriverDetailsActivity_Route"
+                layout="@layout/cardview_my_trip_route"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/Dimension_CardView_MarginSides"
+                android:layout_marginRight="@dimen/Dimension_CardView_MarginSides"
+                android:layout_marginBottom="20dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

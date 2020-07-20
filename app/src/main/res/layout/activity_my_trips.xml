@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.MyTrips">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/Toolbar_MyTripsActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/customWhite"
+        app:title="@string/String_MyTripsActivity_ToolbarTitle" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/LightGray">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/RecyclerView_MyTrips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/Dimension_CardView_MarginBottom" />
+
+    </ScrollView>
+
+</LinearLayout>

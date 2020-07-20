@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/NavigationItem_MainDrawer_SearchRide"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="@string/Menus_SearchRide" />
+        <item
+            android:id="@+id/NavigationItem_MainDrawer_PostATrip"
+            android:icon="@drawable/ic_add_black_24dp"
+            android:title="@string/Menus_PublishRide" />
+
+        <item
+            android:id="@+id/Navigation_Drawer_MyTrips"
+            android:icon="@drawable/ic_carpool"
+            android:title="@string/Menus_MyTrips" />
+
+        <!-- TODO
+        <item
+            android:id="@+id/Navigation_Drawer_Messages"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:title="@string/Menus_Messages" />
+        -->
+
+    </group>
+
+    <item android:title="@string/MenuTitle_NavigationDrawer_Account">
+        <menu>
+
+            <item
+                android:id="@+id/Navigation_Drawer_OpenCloseSession"
+                android:icon="@drawable/ic_login_black_24dp"
+                android:title="@string/MenuItem_NavigationDrawer_OpenCloseSession" />
+
+        </menu>
+    </item>
+
+    <!-- TODO
+        <item android:title="@string/MenuTitle_NavigationDrawer_AboutUs">
+        <menu>
+            <item
+                android:id="@+id/Navigation_Drawer_AboutUs"
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:title="Ayni" />
+        </menu>
+    </item>
+    -->
+
+</menu>

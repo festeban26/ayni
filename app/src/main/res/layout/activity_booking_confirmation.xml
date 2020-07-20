@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.BookingConfirmationActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/Toolbar_BookingConfirmationActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/customWhite"
+        app:title="@string/String_BookingConfirmationActivity_ToolbarTitle" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/String_BookingConfirmationActivity_BookingDetails"
+                    android:textColor="@color/Color_Search"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginEnd="20dp"
+                        android:layout_toStartOf="@id/TextView_BookingConfirmationActivity_OriginCity"
+                        android:text="@string/String_UiForms_OriginCity" />
+
+                    <TextView
+                        android:id="@+id/TextView_BookingConfirmationActivity_OriginCity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:text="@string/String_Example_OriginCity" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/LightGray" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginEnd="20dp"
+                        android:layout_toStartOf="@id/TextView_BookingConfirmationActivity_DestinationCity"
+                        android:text="@string/String_UiForms_DestinationCity" />
+
+                    <TextView
+                        android:id="@+id/TextView_BookingConfirmationActivity_DestinationCity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:text="@string/String_Example_DestinationCity" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/LightGray" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginEnd="20dp"
+                        android:layout_toStartOf="@id/TextView_BookingConfirmationActivity_Date"
+                        android:text="@string/String_UiForms_DepartureDate" />
+
+                    <TextView
+                        android:id="@+id/TextView_BookingConfirmationActivity_Date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:text="@string/String_Example_Date" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/LightGray" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginEnd="20dp"
+                        android:layout_toStartOf="@id/TextView_BookingConfirmationActivity_Time"
+                        android:text="@string/String_UiForms_DepartureTime" />
+
+                    <TextView
+                        android:id="@+id/TextView_BookingConfirmationActivity_Time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:text="@string/String_Example_Time" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/LightGray" />
+
+                <RelativeLayout
+                    android:id="@+id/Layout_BookingConfirmationActivity_RequestDoorToDoorService"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@id/Switch_BookingConfirmationActivity_DoorToDoorService"
+                        android:text="@string/String_UiForms_RequestDoorToDoorService"
+                        android:textColor="@color/Color_Search"
+                        android:textStyle="bold" />
+
+                    <Switch
+                        android:id="@+id/Switch_BookingConfirmationActivity_DoorToDoorService"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:theme="@style/SwitchSearchTheme" />
+
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/Layout_BookingConfirmationActivity_DoorToDoorServiceOriginAndDestination"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape_rectangle"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="10dp"
+                            android:contentDescription="@null"
+                            android:src="@drawable/ic_map_marker_pin_24dp"
+                            android:tint="@color/Gray" />
+
+
+                        <EditText
+                            android:id="@+id/EditText_BookingConfirmationActivity_DoorToDoorOrigin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/customWhite"
+                            android:focusable="false"
+                            android:inputType="date"
+                            android:hint="@string/String_UiForms_SelectYourStartingLocation" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_rectangle"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginEnd="10dp"
+                            android:contentDescription="@null"
+                            android:src="@drawable/ic_map_marker_pin_24dp"
+                            android:tint="@color/Gray" />
+
+
+                        <EditText
+                            android:id="@+id/EditText_BookingConfirmationActivity_DoorToDoorDestination"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/customWhite"
+                            android:focusable="false"
+                            android:inputType="date"
+                            android:hint="@string/String_UiForms_SelectYourDestinationLocation"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/String_UiForms_Fares"
+                    android:textColor="@color/Color_Search"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/Layout_BookingConfirmationActivity_DoorToDoorServiceFares"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginEnd="20dp"
+                            android:layout_toStartOf="@id/TextView_BookingConfirmationActivity_Subtotal"
+                            android:text="@string/String_UiForms_Subtotal" />
+
+                        <TextView
+                            android:id="@+id/TextView_BookingConfirmationActivity_Subtotal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/LightGray" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_toStartOf="@id/TextView_BookingConfirmationActivity_DoorToDoorServicePrice"
+                            android:text="@string/String_UiForms_DoorToDoorService" />
+
+                        <TextView
+                            android:id="@+id/TextView_BookingConfirmationActivity_DoorToDoorServicePrice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/LightGray" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_toStartOf="@id/TextView_BookingConfirmationActivity_Total"
+                        android:text="@string/String_UiForms_Total"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/TextView_BookingConfirmationActivity_Total"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/Button_BookingConfirmationActivity_Cancel"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/String_UiForms_Cancel"
+                        android:theme="@style/CancelButtonTheme" />
+
+
+                    <Button
+                        android:id="@+id/Button_BookingConfirmationActivity_Book"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/String_UiForms_Confirm"
+                        android:theme="@style/SearchTheme" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>

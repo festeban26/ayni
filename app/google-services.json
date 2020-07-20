@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "302622702895",
+    "firebase_url": "https://ayni-94b8f.firebaseio.com",
+    "project_id": "ayni-94b8f",
+    "storage_bucket": "ayni-94b8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302622702895:android:e74d6dc5f2d62a26",
+        "android_client_info": {
+          "package_name": "com.festeban26.ayni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302622702895-rmaqspds0fnafeicjrgt950nv61b14m8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.festeban26.ayni",
+            "certificate_hash": "4ad03e3b8232036514ec0e036ebb362042774403"
+          }
+        },
+        {
+          "client_id": "302622702895-l2pcejodvbu7ljqsu99g550bm76db7rh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.festeban26.ayni",
+            "certificate_hash": "3e75a6ac46fe2011afbbb2145678071a74cbbbd3"
+          }
+        },
+        {
+          "client_id": "302622702895-il8171095a782poftiouund9hl3ifj1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "INSERT API KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302622702895-il8171095a782poftiouund9hl3ifj1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

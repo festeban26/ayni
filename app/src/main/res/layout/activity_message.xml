@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/customGray"
+    tools:context=".activities.MessageActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/AppBarLayout_MessageActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/Toolbar_MessageActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/customWhite"
+            android:theme="@style/ToolbarTheme">
+
+            <ImageView
+                android:id="@+id/ImageView_MessageActivity_ProfileImage"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/ic_launcher"
+                android:contentDescription="@null" />
+
+            <TextView
+                android:id="@+id/TextView_MessageActivity_Username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:textColor="@color/customBlack"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RecyclerView_MessageActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/RelativeLayout_MessageActivity"
+        android:layout_below="@id/AppBarLayout_MessageActivity" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_MessageActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/customWhite"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/EditText_MessageActivity_Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/ImageButton_MessageActivity_Send"
+            android:background="@android:color/transparent"
+            android:hint="@string/String_MessageActivity_TypeAMessage" />
+
+        <ImageButton
+            android:id="@+id/ImageButton_MessageActivity_Send"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ic_send_black_24dp"
+            android:tint="@color/customBlack" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

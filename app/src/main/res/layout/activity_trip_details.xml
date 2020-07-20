@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout_TripDetailsActivity_RootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.TripDetailsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/Toolbar_JourneyDetailsActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/customWhite"
+        app:title="@string/String_TripDetailsActivity_ToolbarTitle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/LightGray"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/ScrollView_TripDetailsActivity"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Dimension_CardView_MarginBottom"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Dimension_CardView_MarginSides"
+                    android:layout_marginRight="@dimen/Dimension_CardView_MarginSides"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="@dimen/Dimension_CardView_CornerRadius"
+                    app:cardElevation="@dimen/Dimension_CardView_Elevation">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <include
+                            layout="@layout/item_trip"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp" />
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout_TripDetailsActivity_DoorToDoorService"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:orientation="vertical"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginBottom="5dp"
+                                android:background="@color/LightGray" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:text="@string/String_UiForms_OriginAndDestinationPrevisualization"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:text="@string/String_UiForms_NoteThisTripHasDoorToDoorService"
+                                android:textStyle="italic" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:text="@string/String_General_Origin"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/TextView_TripDetailsActivity_OriginAddressOfDoorToDoorService"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:text="Luis Cabezas Borja 135, Ibarra, Ecuador" />
+
+                            <fragment
+                                android:id="@+id/Fragment_TripDetailsActivity_OriginPreview"
+                                android:name="com.festeban26.ayni.google.maps.WorkaroundMapFragment"
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                android:layout_marginBottom="10dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:text="@string/String_General_Destination"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/TextView_TripDetailsActivity_DestinationAddressOfDoorToDoorService"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:text="Luis Cabezas Borja 135, Ibarra, Ecuador" />
+
+                            <fragment
+                                android:id="@+id/Fragment_TripDetailsActivity_DestinationPreview"
+                                android:name="com.festeban26.ayni.google.maps.WorkaroundMapFragment"
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                android:layout_marginBottom="5dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/Button_TripDetailsActivity_Book"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/String_TripDetailsActivity_Book"
+            android:theme="@style/SearchTheme" />
+
+    </LinearLayout>
+
+</LinearLayout>

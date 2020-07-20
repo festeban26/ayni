@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">AYNI</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Menus strings -->
+    <string name="Menus_SearchRide"> Buscar viajes</string>
+    <string name="Menus_PublishRide"> Publicar un viaje</string>
+    <string name="Menus_MyTrips"> Mis viajes</string>
+
+    <!-- Landing Page Fragment Strings -->
+    <string name="LandingPageFragment_Slogan">Viajes compartidos y seguros</string>
+    <string name="LandingPageFragment_NeedARide">¿Necesitas un puesto?</string>
+    <string name="LandingPageFragment_PostARide">¿Tienes un puesto libre?</string>
+    <string name="Menus_Messages">Mensajes</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="MenuItem_NavigationDrawer_OpenCloseSession">Acceder</string>
+    <string name="MenuTitle_NavigationDrawer_Account">Mi Cuenta</string>
+    <string name="MenuTitle_NavigationDrawer_AboutUs">Acerca de Nosotros</string>
+
+    <!-- Facebook APP strings -->
+    <string name="facebook_app_id">326564881194985</string>
+    <string name="fb_login_protocol_scheme">fb326564881194985</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="String_SearchActivity_ToolbarTitle">Buscar un Viaje</string>
+    <string name="String_SearchActivityDateEditText_Hint">Fecha (Opcional)</string>
+    <string name="String_SearchActivitySearchButton">Buscar un Viaje</string>
+    <string name="String_InternetConnectionNotAvailableMessage">Por favor verifica tu conexión a internet y vuelve a intentarlo</string>
+    <string name="String_SearchResultsActivity_ToolbatTitle">Resultados de Búsqueda</string>
+    <string name="String_TripItem_Origin">Origen:</string>
+    <string name="String_TripItem_Destination">Destino:</string>
+    <string name="String_LayoutTestsString_DateExample" translatable="false">Domingo, 17 de Marzo</string>
+    <string name="String_LayoutTestsString_HourExample" translatable="false">9am</string>
+    <string name="String_LayoutTestsString_CityExample" translatable="false">Ibarra</string>
+    <string name="String_DollarSign" translatable="false">$</string>
+    <string name="String_LayoutTestsString_PriceExample" translatable="false">3</string>
+    <string name="String_TripItem_EmptySeatsPlural">asientos libres</string>
+    <string name="String_LayoutTestsString_DriverNameExample" translatable="false">Esteban</string>
+    <string name="String_Comma" translatable="false">,</string>
+    <string name="String_LayoutTestsString_AgeExample" translatable="false">24</string>
+    <string name="String_TripItem_Age">años</string>
+    <string name="String_TripItem_CommonFriendsPlural">amigos en común</string>
+    <string name="String_TripItem_Rating">/ 10 en reseñas</string>
+    <string name="String_TripDetailsActivity_ToolbarTitle">Detalles del Viaje</string>
+    <string name="String_TripDetailsActivity_Book">Confirmar</string>
+    <string name="String_DriverProfileActivity_FriendsInCommon">Amigos en común</string>
+    <string name="String_DriverProfileActivity_Reviews">Reseñas</string>
+    <string name="String_DriverProfileActivity_SendMessage">Enviar mensaje</string>
+    <string name="String_DriverProfileActivity_DriverProfile">Perfil del Conductor</string>
+    <string name="String_BookingConfirmationActivity_ToolbarTitle">Confirmación de Viaje</string>
+    <string name="String_BookingConfirmationActivity_ConfirmationWarningMessage">Mensaje de confirmación</string>
+    <string name="String_BookingConfirmationActivity_TripSummary">Resumen del Viaje</string>
+    <string name="String_BookingConfirmationActivity_Book">Confirmar</string>
+    <string name="String_BookingConfirmationActivity_Cancel">Cancelar</string>
+    <string name="String_MyTripsActivity_ToolbarTitle">Mis Viajes</string>
+    <string name="String_MyTripsItem_UserRoleDescription">Rol</string>
+    <string name="String_MyTripsItem_UserRoleDriver">Conductor</string>
+    <string name="String_MyTripsItem_UserRolePassenger">Pasajero</string>
+    <string name="String_SearchResultsActivity_DriverMe">Yo</string>
+    <string name="String_TripItem_EmptySeatsSingular">asiento libre</string>
+    <string name="String_TripItem_CommonFriendsSingular">amigo en común</string>
+    <string name="String_ToastMessage_YouHaveAlreadyBookThisTrip">Ya has reservado este viaje</string>
+    <string name="String_ToastMessage_TripIsFull">Este viaje no dispone de asientos libres</string>
+    <string name="String_ToastMessage_TripSuccesfullyBooked">¡El viaje ha sido reservado con éxito!</string>
+    <string name="String_ToastMessage_SomeoneElseJustBookedThisTrip">Alguien más acaba de reservar este viaje</string>
+    <string name="String_PostActivity_DateTime">Fecha y hora de partida</string>
+    <string name="String_PostActivity_Date">Fecha</string>
+    <string name="String_PostActivity_Time">Hora</string>
+    <string name="String_PostActivity_At">a las</string>
+    <string name="String_PostActivity_NumberOfSeats">Asientos disponibles</string>
+    <string name="String_PostActivity_Price">Precio por asiento (USD)</string>
+    <string name="String_PostActivity_PostTrip">Publicar Viaje</string>
+    <string name="String_PostActivity_ToolbarTitle">Publicar un Viaje</string>
+    <string name="title_activity_select_location_map">Map</string>
+    <string name="String_BookingConfirmationActivity_BookingDetails">Detalles de la reserva</string>
+    <string name="String_UiForms_OriginCity">Ciudad de origen</string>
+    <string name="String_UiForms_DestinationCity">Ciudad de destino</string>
+    <string name="String_UiForms_DepartureDate">Fecha de partida</string>
+    <string name="String_UiForms_DepartureTime">Hora de partida</string>
+    <string name="String_UiForms_RequestDoorToDoorService">Solicitar servicio puerta a puerta</string>
+    <string name="String_Num_1" translatable="false">1</string>
+    <string name="String_Num_2" translatable="false">2</string>
+    <string name="String_Num_3" translatable="false">3</string>
+    <string name="String_UiForms_SelectYourStartingLocation">Selecciona tu punto de partida</string>
+    <string name="String_UiForms_SelectYourDestinationLocation">Selecciona tu punto de destino</string>
+    <string name="String_UiForms_Fares">Tarifas</string>
+    <string name="String_UiForms_Subtotal">Subtotal</string>
+    <string name="String_UiForms_DoorToDoorService">Servicio puerta a puerta</string>
+    <string name="String_UiForms_Total">Total</string>
+    <string name="String_UiForms_Confirm">Confirmar</string>
+    <string name="String_UiForms_Cancel">Cancelar</string>
+    <string name="String_Example_OriginCity" translatable="false">Ibarra</string>
+    <string name="String_Example_DestinationCity" translatable="false">Quito</string>
+    <string name="String_Example_Date" translatable="false">Martes, 13 de abril del 2019</string>
+    <string name="String_Example_Time" translatable="false">08:00 PM</string>
+    <string name="String_Example_Subtotal" translatable="false">$8.00</string>
+    <string name="String_Example_DoorToDoorServicePrice" translatable="false">$2.00</string>
+    <string name="String_Example_TotalPrice" translatable="false">$10.00</string>
+    <string name="String_General_Origin">Origen</string>
+    <string name="String_General_Destination">Destino</string>
+    <string name="String_UiForms_RoutePreview">Vista previa de la ruta</string>
+    <string name="String_UiForms_StartingLocation">Punto de partida</string>
+    <string name="String_UiForms_DestinationLocation">Punto de destino</string>
+    <string name="String_UiForms_OriginAndDestinationPrevisualization">Previsualización de punto de origen y de destino</string>
+    <string name="String_UiForms_NoteThisTripHasDoorToDoorService">* Este viaje acepta solicitudes de servicio de puerta a puerta</string>
+    <string name="String_DroppedPinNear">Marcador colocado cerca de</string>
+    <string name="String_Calculating">Calculando...</string>
+    <string name="String_UserProfileActivity_UserProfile">Perfil de Usuario</string>
+    <string name="String_UserProfileActivity_SendMessage">Enviar mensaje</string>
+    <string name="String_UserProfileActivity_FacebookCommonFriendsTextDescription">amigos en común</string>
+    <string name="String_Notifications_NewMessageTitle">Has recibido un nuevo mensaje!</string>
+    <string name="String_MessageActivity_TypeAMessage">Escribe un mensaje...</string>
+    <string name="String_Notifications_SomeoneHasJustBookedYourTrip">Alguien acaba de reservar tu viaje</string>
+    <string name="String_SignInActivity_ContentRestrictionMessage">Para acceder a este contenido debes estar registrado o haber iniciado sesión en la aplicación</string>
+    <string name="String_SignInActivity_LoginOrRegisterWithFacebook">Regístrate o Inicia Sesión con Facebook</string>
+
+</resources>

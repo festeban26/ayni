@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="customWhite">#F7F7F7</color>
+    <color name="customBlack">#353C42</color>
+    <color name="customGray">#EFEFF1</color>
+    <color name="customGreen">#8BC24E</color>
+    <color name="customBlue">#6BAFD3</color>
+    <color name="colorPrimary">#353C42</color>
+    <color name="colorPrimaryDark">#1A2126</color>
+    <color name="colorPrimaryLight">#4F5860</color>
+    <color name="colorPrimaryExtraLight">#6C757C</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="LightGray">#D3D3D3</color>
+    <color name="Gray">#808080</color>
+
+
+    <color name="Color_Search">#8BC24E</color>
+    <color name="Color_Post">#6BAFD3</color>
+
+    <color name="Color_Dollar">#85bb65</color>
+
+    <color name="ColorTransparent">#00000000</color>
+
+    <color name="Color_MapFragment_MarkerColor">#DD4B3E</color>
+</resources>
+

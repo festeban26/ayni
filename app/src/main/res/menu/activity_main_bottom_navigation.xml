@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Nav_BottomNavigation_FindARide"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/Menus_SearchRide" />
+
+    <item
+        android:id="@+id/Nav_BottomNavigation_MyTrips"
+        android:icon="@drawable/ic_carpool"
+        android:title="@string/Menus_MyTrips" />
+
+    <item
+        android:id="@+id/Nav_BottomNavigation_PostATrip"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="@string/Menus_PublishRide" />
+</menu>

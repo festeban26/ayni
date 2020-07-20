@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">226dp</dimen>
+
+    <dimen name="app_title_font_size">22sp</dimen>
+
+    <!-- Text sizes-->
+    <dimen name="h1">22sp</dimen>
+    <dimen name="h2">20sp</dimen>
+    <dimen name="h3">16sp</dimen>
+
+    <dimen name="Chat_MessagesTextSize">16sp</dimen>
+
+    <dimen name="Dimension_CardView_CornerRadius">8dp</dimen>
+    <dimen name="Dimension_CardView_Elevation">4dp</dimen>
+
+    <dimen name="Dimension_CardView_Padding">10dp</dimen>
+    <dimen name="Dimension_CardView_MarginBottom">10dp</dimen>
+    <dimen name="Dimension_CardView_MarginSides">10dp</dimen>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.SelectMapLocationActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/Toolbar_SelectMapLocationActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/customWhite"
+        app:title="Selecione una ubicación" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/Fragment_SelectMapLocationActivity_Map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+
+        <View
+            android:id="@+id/View_SelectMapLocationActivity_CenterOfMap"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/ImageView_SelectMapLocationActivity_Marker"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_above="@+id/View_SelectMapLocationActivity_CenterOfMap"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_map_marker_pin_24dp"
+            android:tint="@color/Color_MapFragment_MarkerColor" />
+
+        <Button
+            android:id="@+id/Button_SelectMapLocationActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Seleccionar" />
+
+    </RelativeLayout>
+
+</LinearLayout>

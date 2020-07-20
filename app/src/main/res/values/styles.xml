@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/customWhite</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="colorControlActivated">@color/customBlack</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ToolbarTheme" parent="AppTheme">
+        <item name="colorControlNormal">@color/customBlack</item>
+        <item name="android:textColorSecondary">@color/customBlack</item>
+    </style>
+
+    <style name="SearchDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/Color_Search</item>
+    </style>
+
+    <style name="PostDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/Color_Post</item>
+    </style>
+
+    <style name="SearchTheme" parent="AppTheme">
+        <item name="android:colorAccent">@color/Color_Search</item>
+    </style>
+
+    <style name="PostTheme" parent="AppTheme">
+        <item name="android:colorAccent">@color/Color_Post</item>
+    </style>
+
+    <style name="CancelButtonTheme" parent="AppTheme">
+        <item name="android:colorAccent">@color/Gray</item>
+    </style>
+
+    <style name="SwitchSearchTheme" parent="AppTheme">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/Color_Search</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/Gray</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/Gray</item>
+    </style>
+
+    <style name="SwitchPostTheme" parent="AppTheme">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/Color_Post</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/Gray</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/Gray</item>
+    </style>
+
+
+</resources>
